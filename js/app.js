@@ -1,5 +1,5 @@
 "use strict";
-console.log(' %c Theme Cuteen v4.6(20210708) %c https://blog.zwying.com/ ', 'color: #fff; background: #2dce89; padding:5px;', 'background: #1c2b36; padding:5px;');
+console.log(' %c Theme Cuteen v4.9(20211220) %c https://blog.zwying.com/ ', 'color: #fff; background: #2dce89; padding:5px;', 'background: #1c2b36; padding:5px;');
 //----------------------------------------添加、删除Class---------------------------------------
 function hasClass(obj, cls) {
     return obj.className.match(new RegExp('(\\s|^)' + cls + '(\\s|$)'));
@@ -475,7 +475,7 @@ const Cuteen = {
                         }
                         open = true;
                         window.stop();
-                        alert('大佬别再扒了！再扒。。。再扒就嘛都不剩了qwq');
+                        alert('大佬别再扒了！赶紧买一份吧ヽ(￣ω￣(￣ω￣〃)ゝ');
                         document.body.innerHTML = "";
                     } else {
                         open = false;
